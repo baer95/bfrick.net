@@ -1,8 +1,6 @@
-# Hey, I'm baer95
+## Headline
 
-## why is there two differen headlines?
-
-Idk what iÄ'm doing yet.
+Idk what i'm doing yet.
 
 ### Markdown
 
