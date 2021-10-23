@@ -1,8 +1,8 @@
-## Welcome to GitHub Pages
+# Hey, I'm baer95
 
-You can use the [editor on GitHub](https://github.com/baer95/baer95.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+## why is there two differen headlines?
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Idk what iÄ'm doing yet.
 
 ### Markdown
 
