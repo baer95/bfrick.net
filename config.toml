@@ -1,5 +1,5 @@
 baseurl = "https://bfrick.net/"
-title = "BF"
+title = "bfrick"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
