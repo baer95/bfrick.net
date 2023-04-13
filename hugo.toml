@@ -24,7 +24,8 @@ favicon_16 = "/img/favicon-16x16.png"
 
 since = 2018
 
-enableTwemoji = true
+enableEmoji = true
+enableInlineShortcodes = true
 
 colorScheme = "auto"
 hidecolorschemetoggle = false
@@ -41,12 +42,12 @@ author = "authors"
 
 # Social links
 [[params.social]]
-name = "Github"
+name = "GitHub"
 icon = "fa fa-github fa-2x"
 weight = 1
 url = "https://github.com/baer95/"
 [[params.social]]
-name = "Gitlab"
+name = "GitLab"
 icon = "fa fa-gitlab fa-2x"
 weight = 2
 url = "https://gitlab.com/sirbjoern/"
@@ -55,6 +56,11 @@ name = "Twitter"
 icon = "fa fa-twitter fa-2x"
 weight = 3
 url = "https://twitter.com/BernhardFrick"
+[[params.social]]
+name = "LinkedIn"
+icon = "fa fa-linkedin fa-2x"
+weight = 4
+url = "https://www.linkedin.com/in/bernhard-frick/"
 
 # Menu links
 [[menu.main]]
