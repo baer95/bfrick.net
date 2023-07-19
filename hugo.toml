@@ -6,6 +6,8 @@ defaultcontentlanguage = "en"
 
 enableRobotsTXT = true
 
+googleAnalytics = "G-QEE3LS2RJ3"
+
 paginate = 20
 
 #disqusShortname = "yourdiscussshortname"
