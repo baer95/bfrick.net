@@ -4,6 +4,8 @@ theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
 
+enableRobotsTXT = true
+
 paginate = 20
 
 #disqusShortname = "yourdiscussshortname"
