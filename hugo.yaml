@@ -60,6 +60,9 @@ menu:
     - name: Projects
       weight: 2
       url: projects/
-    - name: About
+    - name: Experience
       weight: 3
+      url: about/
+    - name: About
+      weight: 4
       url: about/
