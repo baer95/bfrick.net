@@ -13,7 +13,7 @@ paginate: 20
 
 markup:
   highlight:
-    style: github-dark
+    style: nord
 
 params:
   author: Bernhard Frick
