@@ -6,7 +6,7 @@ draft: false
 
 ## Marktplaats - Infrastructure Engineer
 
-https://www.marktplaats.nl/ / https://www.2dehands.be/ / https://www.2ememain.be/
+[marktplaats.nl](https://www.marktplaats.nl/) / [2dehands.be](https://www.2dehands.be/) / [2ememain.be](https://www.2ememain.be/)
 
 > March 2022 - Current (full-time), Amsterdam, Netherlands
 
@@ -19,7 +19,7 @@ https://www.marktplaats.nl/ / https://www.2dehands.be/ / https://www.2ememain.be
 
 ## Shpock - Linux Systems Engineer
 
-https://www.shpock.com/
+[shpock.com](https://www.shpock.com/)
 
 > January 2020 - December 2021 (part-time), Vienna, Austria
 
@@ -37,7 +37,7 @@ https://www.shpock.com/
 
 ## Shpock - Backend Software Engineer
 
-https://www.shpock.com/
+[shpock.com](https://www.shpock.com/)
 
 > August 2018 - December 2019 (part-time), Vienna, Austria
 
@@ -50,7 +50,7 @@ https://www.shpock.com/
 
 ## sattler energie consulting - System Administrator
 
-https://energie-consulting.at/
+[energie-consulting.at](https://energie-consulting.at/)
 
 > July 2015 - July 2018 (part-time), Gmunden, Austria
 
