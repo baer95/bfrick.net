@@ -52,31 +52,26 @@ compared to running a full node/express/webpack application.
 When running the dev server, `sensu/web` proxies http requests to certain paths to the `sensu-backend` API, which can be
 configured through the environment variable `API_URL`.
 
-When building a static website, there is no server-side processing that could proxy request to the `sensu-backend` API,
+When building a static website, there is no server-side processing that could proxy requests to the `sensu-backend` API,
 so we need nginx to do that. We need nginx anyway to serve the static files, so no problem here.
 
 **Nginx Reverse Proxy**
 
 We are going to replace the dev server with an nginx reverse proxy. The configuration of the dev server as seen in
-https://github.com/sensu/web/blob/master/scripts/serve.js is used as a basis for the nginx configuration.
+https://github.com/sensu/web/blob/master/scripts/serve.js#L25 is used as a basis for the nginx configuration.
 
-As seen in line 24, requests to `/auth` `/graphql` and `/api` need to be forwarded to the `sensu-backend` API. All other
+As seen in line 25, requests to `/auth` `/graphql` and `/api` need to be forwarded to the `sensu-backend` API. All other
 requests should be forwarded to the deployment of `sensu/web`.
 
 Deploy an nginx server at http://sensu.example.com with the following configuration:
 
 ```nginx configuration
-upstream sensu-backend-api {
-    server sensubackend01.example.com:8080;
-    server sensubackend02.example.com:8080;
-    server sensubackend03.example.com:8080;
+upstream sensu-backend {
+    server sensu-backend.example.com:8080;
 }
 
 upstream sensu-web {
-    # using docker:
     server sensu-web.example.com:5000;
-    # using openshift:
-    server sensu-web.openshift.example.com;
 }
 
 server {
@@ -84,7 +79,7 @@ server {
     server_name sensu.example.com;
 
     location ~ ^/(auth|graphql|api) {
-        proxy_pass http://sensu-backend-api;
+        proxy_pass http://sensu-backend;
     }
 
     location / {
@@ -122,7 +117,30 @@ server {
 ```
 
 We are using a multi-stage Dockerfile to clone the source, install dependencies, build the static site and then create a
-docker image based on `nginx:alpine` that just contains the static build output.
+docker image based on `nginx:alpine` that just contains the static build output:
+
+```dockerfile
+FROM node:14-alpine as build
+
+WORKDIR /home/node/sensu/web
+
+ENV NODE_ENV="production"
+
+ARG VERSION
+
+RUN apk add git && \
+    git clone --depth 1 --branch "${VERSION}" https://github.com/sensu/web.git . && \
+    yarn install --network-timeout 100000 && \
+    yarn build
+
+FROM nginx:alpine
+
+COPY --from=build /home/node/sensu/web/build/app/ /usr/share/nginx/html
+
+COPY ./etc/nginx/ /etc/nginx/
+
+EXPOSE 5000
+```
 
 **Deployment**
 
