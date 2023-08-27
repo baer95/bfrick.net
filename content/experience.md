@@ -4,7 +4,7 @@ date: 2023-08-27T15:53:24+02:00
 draft: false
 ---
 
-## Marktplaats - Infrastructure Engineer
+## Infrastructure Engineer @ Marktplaats / Adevinta
 
 [marktplaats.nl](https://www.marktplaats.nl/) / [2dehands.be](https://www.2dehands.be/) / [2ememain.be](https://www.2ememain.be/)
 
@@ -17,7 +17,7 @@ draft: false
    * Migration from on-premise Datacenters to AWS
    * Migration of various legacy monitoring solutions (Prometheus, Alertmanager, Grafana, Thanos, Graphite, Nagios) to DataDog
 
-## Shpock - Linux Systems Engineer
+## Linux Systems Engineer @ Shpock
 
 [shpock.com](https://www.shpock.com/)
 
@@ -35,7 +35,7 @@ draft: false
     * Terraform (GCP & AWS)
     * CI/CD: Jenkins, GitLab CI, GitHub Actions
 
-## Shpock - Backend Software Engineer
+## Backend Software Engineer @ Shpock
 
 [shpock.com](https://www.shpock.com/)
 
@@ -48,7 +48,7 @@ draft: false
  * Simplified and improved and CI/CD pipelines by introducing GitLab CI and later GitHub Actions
  * Technologies: PHP, Docker, MongoDB, Elasticsearch, OpenShift, GitLab CI, GitHub Actions
 
-## sattler energie consulting - System Administrator
+## System Administrator @ sattler energie consulting
 
 [energie-consulting.at](https://energie-consulting.at/)
 
