@@ -62,7 +62,7 @@ menu:
       url: projects/
     - name: Experience
       weight: 3
-      url: about/
+      url: experience/
     - name: About
       weight: 4
       url: about/
