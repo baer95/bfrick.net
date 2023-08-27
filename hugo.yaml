@@ -1,0 +1,65 @@
+baseurl: 'https://bfrick.net/'
+title: bfrick
+theme: hugo-coder
+
+languagecode: en
+defaultcontentlanguage: en
+
+enableRobotsTXT: true
+
+googleAnalytics: G-QEE3LS2RJ3
+
+paginate: 20
+
+markup:
+  highlight:
+    style: github-dark
+
+params:
+  author: Bernhard Frick
+  info: Infrastructure & Site Reliability Engineer
+  description: Bernhard Frick's personal website
+  keywords: 'blog,personal,engineer,infrastructure,sre'
+  avatarurl: images/portrait.jpeg
+  favicon_32: /img/favicon-32x32.png
+  favicon_16: /img/favicon-16x16.png
+  since: 2018
+  enableEmoji: true
+  enableInlineShortcodes: true
+  colorScheme: auto
+  hidecolorschemetoggle: false
+  social:
+    - name: GitHub
+      icon: fa fa-github fa-2x
+      weight: 1
+      url: 'https://github.com/baer95/'
+    - name: GitLab
+      icon: fa fa-gitlab fa-2x
+      weight: 2
+      url: 'https://gitlab.com/sirbjoern/'
+    - name: Twitter
+      icon: fa fa-twitter fa-2x
+      weight: 3
+      url: 'https://twitter.com/BernhardFrick'
+    - name: LinkedIn
+      icon: fa fa-linkedin fa-2x
+      weight: 4
+      url: 'https://www.linkedin.com/in/bernhard-frick/'
+
+taxonomies:
+  category: categories
+  series: series
+  tag: tags
+  author: authors
+
+menu:
+  main:
+    - name: Blog
+      weight: 1
+      url: posts/
+    - name: Projects
+      weight: 2
+      url: projects/
+    - name: About
+      weight: 3
+      url: about/
