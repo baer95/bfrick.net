@@ -5,6 +5,17 @@ theme: hugo-coder
 languagecode: en
 defaultcontentlanguage: en
 
+disableKinds:
+#  - "page" # needed to generate any pages at all
+#  - "home" # needed to generate the home page
+#  - "section" # needed for blog list
+#  - "taxonomy" # the landing page for a taxonomy
+#  - "term" # the landing page for one taxonomy's term
+  - "RSS"
+#  - "sitemap" # needed to generate the sitemap
+#  - "robotsTXT" # needed to generate the robots.txt
+#  - "404" # needed to generate the 404 page
+
 enableRobotsTXT: true
 
 googleAnalytics: G-QEE3LS2RJ3
