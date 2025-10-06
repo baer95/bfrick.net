@@ -48,10 +48,6 @@ params:
       icon: fa fa-gitlab fa-2x
       weight: 2
       url: 'https://gitlab.com/sirbjoern/'
-    - name: Twitter
-      icon: fa fa-twitter fa-2x
-      weight: 3
-      url: 'https://twitter.com/BernhardFrick'
     - name: LinkedIn
       icon: fa fa-linkedin fa-2x
       weight: 4
