@@ -18,9 +18,9 @@ disableKinds:
 
 enableRobotsTXT: true
 
-googleAnalytics: G-QEE3LS2RJ3
-
-pagination.pagerSize: 20
+services:
+  googleAnalytics:
+    id: "G-QEE3LS2RJ3"
 
 markup:
   highlight:
@@ -59,17 +59,17 @@ taxonomies:
   tag: tags
   author: authors
 
-menu:
+menus:
   main:
     - name: Blog
       weight: 1
-      url: posts/
+      pageRef: posts/
     - name: Projects
       weight: 2
-      url: projects/
+      pageRef: projects/
     - name: Experience
       weight: 3
-      url: experience/
+      pageRef: experience/
     - name: About
       weight: 4
-      url: about/
+      pageRef: about/
