@@ -14,7 +14,6 @@ draft: false
   * GitHub Actions (CI/CD, provisioning and configuring infrastructure, testing and deploying applications)
   * [Coolify](https://github.com/coollabsio/coolify)/Docker (container orchestrator & runtime)
   * Automated database backups
-  * Single Sign-On ([Authentik](https://github.com/goauthentik/authentik))
 * Hosted applications:
   * Parts of the Website (https://desering.org/)
   * A wiki ([Wiki.js](https://github.com/requarks/wiki))
@@ -22,6 +21,7 @@ draft: false
     * https://github.com/desering/volunteer-scheduler/, Open Source
   * A communication platform ([Mattermost](https://github.com/mattermost/mattermost))
   * A password manager ([Vaultwarden](https://github.com/dani-garcia/vaultwarden))
+  * Single Sign-On ([Authentik](https://github.com/goauthentik/authentik))
   * Monitoring and alerting with Prometheus, Grafana, Netdata
 
 # Homelab
