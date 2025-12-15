@@ -52,22 +52,18 @@ they see value in our purpose and vision - a really nice problem to have :).
  * Monitoring and alerting with Prometheus, Grafana, Netdata
  * And more...
 
-# Homelab
+# Homelab / Cloudlab
 
-This is where I play with self-hosted systems. Currently, this includes:
+This is my playground for anything I'm curious about - self-hosted systems,
+enterprise-grade hardware, testing things for work or supporting the community
+I volunteer at. Currently, this includes:
 
-* My own fiber internet connection (Mikrotik RB5009UG+S+IN, Ubiquiti UniFi AP)
-* A self-built server (32gb RAM, 12core CPU, 4x 3TB HDDs)
-* Multiple Raspberry PIs for various smaller projects and playing with Ubuntu MaaS
-* Ansible configuration management
-* A 3D Printer ([Creality Ender-6](https://www.creality.com/products/ender-6-3d-printer))
-
-# Cloudlab
-
-This is where I play with cloud-based systems. Currently, this includes:
-
- * This personal website/blog
- * GitHub Actions
- * Terraform
- * Cloudflare
- * AWS
+ * My own fiber internet connection (Mikrotik RB5009UG+S+IN, Ubiquiti UniFi AP)
+ * A self-built "server" (32gb RAM, 12core CPU, 4x 3TB HDDs)
+ * Multiple Raspberry PIs for various smaller projects
+ * Ubuntu MaaS / Talos Linux to provision immutable k8s clusters directly on hardware
+ * Ansible configuration management
+ * A 3D Printer ([Creality Ender-6](https://www.creality.com/products/ender-6-3d-printer))
+ * This personal website/blog on GitHub Pages
+ * Automation with GitHub Actions and Terraform
+ * Some minor things in Cloudflare and AWS
