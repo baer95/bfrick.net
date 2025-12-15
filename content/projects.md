@@ -11,7 +11,7 @@ draft: false
   * Hetzner Cloud (virtual servers, storage buckets, managed via Terraform)
   * Cloudflare (DNS and DDoS protection, managed via Terraform)
   * Terraform, Ansible (Infrastructure as Code)
-  * GitHub Actions (CI/CD, provisioning and configuring infrastructure deploying applications)
+  * GitHub Actions (CI/CD, provisioning and configuring infrastructure, deploying applications)
   * [Coolify](https://github.com/coollabsio/coolify) for automated deployments
   * Automated database backups
   * Single Sign-On ([Authentik](https://github.com/goauthentik/authentik))
