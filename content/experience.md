@@ -10,12 +10,40 @@ draft: false
 
 > March 2022 - Current (full-time), Amsterdam, Netherlands
 
+**Duty**
+
  * Maintain and improve infrastructure required to run marktplaats.nl
- * Focus on databases (MySQL, Cassandra, CockroachDB)
- * On-call duties
- * Projects:
-   * Migration from on-premise Datacenters to AWS
-   * Migration of various legacy monitoring solutions (Prometheus, Alertmanager, Grafana, Thanos, Graphite, Nagios) to DataDog
+ * Main focus areas: kubernetes (engineering reliable, reusable components), databases (MySQL/AWS Aurora)
+ * On-call (part of a mature and routined team, working in collaboration with multiple other on-call teams across the product landscape)
+
+**Key achievements**
+
+ * Migrated the entire platform from on-premise datacenters to AWS, completing all planned milestones on time.
+ * Successfully planned, executed and completed the migration and upgrade of multiple large MySQL clusters from legacy hardware to AWS Aurora with zero downtime, and within the planned timeframe.
+ * Successfully planned, executed and completed the consolidation of our alerting, on-call and incident management systems from various legacy monitoring solutions to DataDog.
+ * Built and deployed an entire new platform to run product workloads based on k8s.
+
+**Technologies**
+
+ * Cloud Providers
+   * AWS, OpenStack
+ * Infrastructure provisioning
+   * Terraform, SaltStack, Hashicorp Packer
+   * Crossplane, Cluster API
+ * Observability
+   * Datadog, PagerDuty
+   * Fluent Bit, Vector
+   * Prometheus, Alertmanager, Grafana, Thanos, Graphite, Nagios
+ * Pipelines & Automation
+   * GitHub Actions & GitHub Actions Runners
+   * Jenkins
+ * Container Runtimes
+   * K8s, Argo CD
+   * Hashicorp Nomad, Vault
+ * Databases
+   * MySQL/AWS Aurora, Cassandra, CockroachDB
+   * Kafka, RabbitMQ, SQS, SNS
+   * Elasticsearch, Elasticache, MemoryDB
 
 ## Linux Systems Engineer @ Shpock
 
