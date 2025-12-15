@@ -25,27 +25,32 @@ We are now operating various different applications and websites, host a weekly
 event where community members can get involved and contribute, and we even
 started our own open-source software project which is seeing significant
 involvement and garnering interest from other volunteer-based organisations in
-the area.
+the area. Our biggest challenge at the moment is scaling our processes to the
+unexpected amount of volunteers wanting to get involved and contribute because
+they see value in our purpose and vision - a really nice problem to have :).
 
-* Used technologies:
-  * Google Workspace for Nonprofits
-  * Hetzner Cloud (virtual servers, storage buckets, managed via Terraform)
-  * Cloudflare (DNS and DDoS protection, managed via Terraform)
-  * Terraform, Ansible (Infrastructure as Code)
-  * GitHub Actions (CI/CD, provisioning and configuring infrastructure, testing and deploying applications)
-  * GitHub Pages for stateless web apps
-* Hosted applications:
-  * [Coolify](https://github.com/coollabsio/coolify)/Docker (container orchestrator & runtime)
-  * Parts of our Websites (https://desering.org/, https://testtafel.nl/)
-  * A wiki ([Wiki.js](https://github.com/requarks/wiki))
-  * A self-built application that organises volunteer contributions
-    * https://github.com/desering/volunteer-scheduler/
-    * Open Source project with active participation and contributions from the community
-  * A communication platform ([Mattermost](https://github.com/mattermost/mattermost))
-  * A password manager ([Vaultwarden](https://github.com/dani-garcia/vaultwarden))
-  * Single Sign-On ([Authentik](https://github.com/goauthentik/authentik))
-  * Monitoring and alerting with Prometheus, Grafana, Netdata
-  * And more...
+**Used technologies**
+
+ * Google Workspace for Nonprofits
+ * Hetzner Cloud (virtual servers, storage buckets, managed via Terraform)
+ * Cloudflare (DNS and DDoS protection, managed via Terraform)
+ * Terraform, Ansible (Infrastructure as Code)
+ * GitHub Actions (CI/CD, provisioning and configuring infrastructure, testing and deploying applications)
+ * GitHub Pages for stateless web apps
+
+**Hosted applications**
+
+ * [Coolify](https://github.com/coollabsio/coolify)/Docker (container orchestrator & runtime)
+ * Parts of our Websites (https://desering.org/, https://testtafel.nl/)
+ * A wiki ([Wiki.js](https://github.com/requarks/wiki))
+ * A self-built application that organises volunteer contributions
+   * https://github.com/desering/volunteer-scheduler/
+   * Open Source project with active participation and contributions from the community
+ * A communication platform ([Mattermost](https://github.com/mattermost/mattermost))
+ * A password manager ([Vaultwarden](https://github.com/dani-garcia/vaultwarden))
+ * Single Sign-On ([Authentik](https://github.com/goauthentik/authentik))
+ * Monitoring and alerting with Prometheus, Grafana, Netdata
+ * And more...
 
 # Homelab
 
