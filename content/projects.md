@@ -40,7 +40,7 @@ they see value in our purpose and vision - a really nice problem to have :).
 
 **Hosted applications**
 
- * [Coolify](https://github.com/coollabsio/coolify)/Docker (container orchestrator & runtime)
+ * [Coolify](https://github.com/coollabsio/coolify) (container runtime/orchestrator)
  * Parts of our Websites (https://desering.org/, https://testtafel.nl/)
  * A wiki ([Wiki.js](https://github.com/requarks/wiki))
  * A self-built application that organises volunteer contributions
