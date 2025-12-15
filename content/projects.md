@@ -6,12 +6,14 @@ draft: false
 
 # Volunteering: De Sering
 
-[De Sering](https://desering.org/) is a community center, kitchen, and public
-space dedicated to bringing people together through food, culture, and shared
-purpose. My involvement started small at the beginning of 2024 with cooking
-large amounts of food throughout most of the year, and then turned to building
-up a group of volunteers who now come together regularly to repair broken
-kitchen equipment and maintain and improve the public space in its entirety.
+> [De Sering](https://desering.org/) is a community center, kitchen, and public
+> space dedicated to bringing people together through food, culture, and shared
+> purpose.
+
+My involvement started small at the beginning of 2024 with cooking large amounts
+of food throughout most of the year, and then turned to building up a group of
+volunteers who now come together regularly to repair broken kitchen equipment
+and maintain and improve the public space in its entirety.
 
 As this group turned more stable and autonomous, I shifted focus towards the
 digital infrastructure of our fast-growing community - better websites,
