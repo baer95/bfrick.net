@@ -10,7 +10,8 @@ draft: false
   * Google Workspace for Nonprofits
   * Hetzner Cloud (virtual servers, storage buckets, managed via Terraform)
   * Cloudflare (DNS and DDoS protection, managed via Terraform)
-  * GitHub Actions, Terraform, Ansible for Infrastructure as Code
+  * Terraform, Ansible (Infrastructure as Code)
+  * GitHub Actions (CI/CD, provisioning and configuring infrastructure deploying applications)
   * [Coolify](https://github.com/coollabsio/coolify) for automated deployments
   * Automated database backups
   * Single Sign-On ([Authentik](https://github.com/goauthentik/authentik))
@@ -18,6 +19,7 @@ draft: false
   * Parts of the Website (https://desering.org/)
   * A wiki ([Wiki.js](https://github.com/requarks/wiki))
   * A self-built application that organises volunteer contributions
+    * https://github.com/desering/volunteer-scheduler/, Open Source
   * A communication platform ([Mattermost](https://github.com/mattermost/mattermost))
   * A password manager ([Vaultwarden](https://github.com/dani-garcia/vaultwarden))
   * Monitoring and alerting with Prometheus, Grafana, Netdata
