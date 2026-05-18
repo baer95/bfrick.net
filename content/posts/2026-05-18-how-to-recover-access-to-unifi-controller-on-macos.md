@@ -84,7 +84,7 @@ $[algorithm]$[salt]$[hash]
 
 In this case, `6` indicates an SHA-512 hash.
 
-To generate a new hash, I used `mkpassword`:
+To generate a new hash, I used `mkpasswd`:
 
 ```shell
 mkpasswd --method=SHA-512
