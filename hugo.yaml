@@ -1,9 +1,8 @@
 baseurl: 'https://bfrick.net/'
-title: bfrick
+title: "Bernhard Frick"
 theme: hugo-coder
 
-languagecode: en
-defaultcontentlanguage: en
+locale: en
 
 disableKinds:
 #  - "page" # needed to generate any pages at all
