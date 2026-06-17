@@ -24,6 +24,9 @@ services:
 markup:
   highlight:
     style: nord
+  goldmark:
+    renderer:
+      unsafe: true
 
 params:
   author: Bernhard Frick
